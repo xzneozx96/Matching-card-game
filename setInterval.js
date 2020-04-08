@@ -4,6 +4,6 @@ let countDown = setInterval(() => {
 	--time;
 	if (time === 0) {
 		clearInterval(countDown);
-		console.log("Merry Christmas")
+		console.log("Happy New Year, best wishes for you")
 	}
 },1000)
