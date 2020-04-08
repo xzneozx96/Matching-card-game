@@ -3,6 +3,7 @@ let countDown = setInterval(() => {
 	console.log(time);
 	--time;
 	if (time === 0) {
-		clearInterval(countDown)
+		clearInterval(countDown);
+		console.log("Happy new year")
 	}
 },1000)
